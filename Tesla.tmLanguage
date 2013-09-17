@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>comment</key>
+    <string>Syntax for Tesla language</string>
+    <key>fileTypes</key>
+    <array>
+        <string>tes</string>
+    </array>
+    <key>foldingStartMarker</key>
+    <string>(\[)</string>
+    <key>foldingStopMarker</key>
+    <string>(\]}</string>
+    <key>name</key>
+    <string>Tesla</string>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>match</key>
+            <string>(^|\s)(import|from|as|var|true|false|none|self)($|\s)</string>
+            <key>name</key>
+            <string>keyword.source</string>
+            <key>comment</key>
+            <string>Tesla keywords</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>(^|\s)(Log|Report|Repository|Time|Error|Success|Process|Terminal|Keyboard|Mouse|Environment)($|\s)</string>
+            <key>name</key>
+            <string>entity.name.class.source.tesla</string>
+            <key>comment</key>
+            <string>Tesla classes</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>(info|warning|error|success|screenshot|waitUntil|wait|then|raise|writeline|or):</string>
+            <key>name</key>
+            <string>entity.name.function.source.tesla</string>
+            <key>comment</key>
+            <string>Tesla methods with parameters</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>(invoke|screenshot|click)(\s|$)</string>
+            <key>name</key>
+            <string>entity.name.function.source.tesla</string>
+            <key>comment</key>
+            <string>Tesla methods without parameters</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>'[^']*'</string>
+            <key>name</key>
+            <string>string.language.source.tesla</string>
+            <key>comment</key>
+            <string>Tesla strings</string>
+        </dict>
+        <dict>
+            <key>begin</key>
+            <string>"</string>
+            <key>end</key>
+            <string>"</string>
+            <key>name</key>
+            <string>comment.source.tesla</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\d+(\.\d+)?</string>
+            <key>name</key>
+            <string>constant.numeric.source.tesla</string>
+            <key>comment</key>
+            <string>Tesla numbers</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>:=|:|,</string>
+            <key>name</key>
+            <string>constant.other.symbol.source.tesla</string>
+            <key>comment</key>
+            <string>Tesla symbols</string>
+        </dict>
+    </array>
+
+    <key>scopeName</key>
+    <string>source.tesla</string>
+    <key>uuid</key>
+    <string>DB6DDAD6-22E6-4E8F-98A2-FCC2E9EE9C77</string>
+</dict>
+</plist>

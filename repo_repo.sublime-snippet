@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<repository xmlns="http://telventdms.com/automatedtesting">
+	${0}
+</repository>
+]]></content>
+	<tabTrigger>repo</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Root repository tag</description>
+</snippet>

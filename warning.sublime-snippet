@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Log warning: '${1:message}'
+]]></content>
+    <tabTrigger>warn</tabTrigger>
+    <scope>source.tesla</scope>
+    <description>Log warning.</description>
+</snippet>

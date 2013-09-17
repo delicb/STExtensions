@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+var procList := Process list
+procList forEach: [ current |
+    var proc := current name
+    proc = '${1}.exe' ifTrue: [
+        current kill
+        Log error: '${1/\.exe//g} found in process list and is killed'
+    ]
+]
+var p := Process run: '${2:PATH}\\\\${1}.exe'
+]]></content>
+    <tabTrigger>kproc</tabTrigger>
+    <scope>source.tesla</scope>
+</snippet>

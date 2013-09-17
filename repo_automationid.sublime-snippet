@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<automationid>${1:id}</automationid>
+]]></content>
+    <tabTrigger>aid</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Automation id</description>
+</snippet>

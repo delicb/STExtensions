@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:true} ifTrue: [
+    ${2}
+] ifFalse: [
+    ${3}
+]
+]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.tesla</scope>
+    <description>Tesla if construct.</description>
+</snippet>

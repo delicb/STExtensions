@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+'''
+Author: ${1:Name Surname} <${1/([^\s]+)\s?([^\s]+)?/\L\1\.\L\2/g}@schneider-electric-dms.com>
+Info: ${2:Test info}
+Dependencies: ${3:list,of,depencencies}
+'''
+
+import unittest
+
+class ${4:TestClass}(unittest.TestCase):
+    def setUp(self):
+        super(${4}, self).setUp()
+
+    def tearDown(self):
+        super(${4}, self).tearDown()
+
+    def test_${5:foo}(self):
+        ${6:pass}
+]]></content>
+    <tabTrigger>stmodc</tabTrigger>
+    <description>Initial SmartTest module with test class.</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
+

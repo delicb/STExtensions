@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+'''
+Author: ${1:Name Surname} <${1/([^\s]+)\s?([^\s]+)?/\L\1\.\L\2/g}@schneider-electric-dms.com>
+Info: ${2:Test info}
+Dependencies: ${3:list,of,depencencies}
+'''
+
+]]></content>
+    <tabTrigger>stmodp</tabTrigger>
+    <description>Initial SmartTest test in python.</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Terminal writeline: ${1:'hello'}
+]]></content>
+    <tabTrigger>write</tabTrigger>
+    <scope>source.tesla</scope>
+    <description>Write to output.</description>
+</snippet>

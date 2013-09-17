@@ -1,0 +1,5 @@
+{
+    "cmd": ["ATRunnerCli.exe", "run_plans", "$file_base_name", "--unblock-input"],
+    "shell": true,
+    "selector": "source.xml",
+}

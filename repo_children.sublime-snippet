@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<children>
+	<item name="${1:name}">
+		<path>
+			<rule>
+				${2}
+			</rule>
+		</path>
+	</item>${3}
+</children>
+${0}
+]]></content>
+	<tabTrigger>ch</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Children tag</description>
+</snippet>

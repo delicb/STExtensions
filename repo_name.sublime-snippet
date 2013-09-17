@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<name>${1:id}</name>
+]]></content>
+    <tabTrigger>name</tabTrigger>
+    <scope>text.xml</scope>
+    <description>name</description>
+</snippet>

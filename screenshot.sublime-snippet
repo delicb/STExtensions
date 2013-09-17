@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Log screenshot
+]]></content>
+    <tabTrigger>scr</tabTrigger>
+    <scope>source.tesla</scope>
+    <description>Log screenshot.</description>
+</snippet>
