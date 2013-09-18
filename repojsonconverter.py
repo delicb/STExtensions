@@ -26,8 +26,9 @@ class RepoXmlToJson(sublime_plugin.TextCommand):
         content = self.view.substr(sublime.Region(0, self.view.size()))
         repo = ET.fromstring(re.sub(' xmlns="[^"]+"', '', content))
         print(json.dumps(self.process_item(repo.find('item')), indent=4))
+
         self.view.replace(edit, sublime.Region(0, self.view.size()),
-                          json.dumps(self.process_item(repo.find('item')), indent=4))
+                          json.dumps(list(map(self.process_item, repo.findall('item'))), indent=4))
 
     def process_item(self, item, mapping=None):
         if mapping is None:
@@ -56,3 +57,23 @@ class RepoXmlToJson(sublime_plugin.TextCommand):
             for ch in children:
                 mapping['children'].append(self.process_item(ch))
         return mapping
+
+
+class RepoJsonToXml(sublime_plugin.TextCommand):
+    def run(self, edit):
+        content = self.view.substr(sublime.Region(0, self.view.size()))
+        data = json.loads(content)
+        repo = ET.Element('{%s}repository' % NS, version='2')
+        for item in data:
+            repo.append(self.process_item(repo, item))
+        xml = ET.tostring(repo, encoding='utf-8').decode('utf-8')
+        print(xml)
+        print(type(xml))
+        self.view.replace(edit, sublime.Region(0, self.view.size()),
+                          xml)
+
+    def process_item(self, parent, item):
+        from pprint import pprint
+        pprint(item)
+        i = ET.SubElement(parent, '{%s}item' % NS, name=item['name'])
+        return i
