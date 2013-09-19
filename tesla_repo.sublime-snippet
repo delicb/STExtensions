@@ -2,7 +2,7 @@
     <content><![CDATA[
 var repo := Repository load: '${1}.xml'
 ]]></content>
-    <tabTrigger>vrepo</tabTrigger>
+    <tabTrigger>repo</tabTrigger>
     <scope>source.tesla</scope>
-    <description>Treation of repository in Tesla.</description>
+    <description>Creation of repository in Tesla.</description>
 </snippet>

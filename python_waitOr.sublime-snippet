@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@wait_until(${1:30}, error_message='${2:Timeout has expired}')
+def _():
+    return ${3:False}
+${0}
+]]></content>
+    <tabTrigger>waitor</tabTrigger>
+    <scope>source.python</scope>
+    <description>Log warning.</description>
+</snippet>

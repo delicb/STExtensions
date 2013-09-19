@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+repo = Repository('${1}.xml')
+]]></content>
+    <tabTrigger>repo</tabTrigger>
+    <scope>source.python</scope>
+    <description>Creation of repository in Python.</description>
+</snippet>
