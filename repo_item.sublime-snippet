@@ -4,9 +4,9 @@
 	<path>
 		<rule>
 			${2}
-		</rule>
-	<path>${3}
-</item>
+		</rule>${3}
+	<path>
+</item>${4}
 ${0}
 ]]></content>
 	<tabTrigger>item</tabTrigger>

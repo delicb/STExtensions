@@ -5,9 +5,9 @@
 		<path>
 			<rule>
 				${2}
-			</rule>
+			</rule>${3}
 		</path>
-	</item>${3}
+	</item>${4}
 </children>
 ${0}
 ]]></content>

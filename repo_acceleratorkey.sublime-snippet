@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<acceleratorkey>${1:id}</acceleratorkey>
+]]></content>
+    <tabTrigger>acc</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Accelerator key</description>
+</snippet>

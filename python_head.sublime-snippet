@@ -7,6 +7,7 @@ Dependencies: ${3:list,of,depencencies}
 '''
 
 ]]></content>
-    <tabTrigger>stmodp</tabTrigger>
+    <tabTrigger>head</tabTrigger>
     <description>Initial SmartTest test in python.</description>
+    <scope>source.python</scope>
 </snippet>

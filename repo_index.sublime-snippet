@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+filter="index:${1:1}"
+]]></content>
+    <tabTrigger>index</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Indexing</description>
+</snippet>

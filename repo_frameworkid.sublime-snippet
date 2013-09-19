@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<frameworkid>${1:id}</frameworkid>
+]]></content>
+    <tabTrigger>fwid</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Framework id</description>
+</snippet>

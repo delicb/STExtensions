@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<helptext>${1:id}</helptext>
+]]></content>
+    <tabTrigger>htxt</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Help text</description>
+</snippet>
