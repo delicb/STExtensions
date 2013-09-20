@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Mouse.click()
+]]></content>
+    <tabTrigger>click</tabTrigger>
+    <description>Snippet for simulating mouse click.</description>
+    <scope>source.python</scope>
+</snippet>

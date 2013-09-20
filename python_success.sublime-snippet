@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+raise Success('${1:success message}')
+]]></content>
+    <tabTrigger>succ</tabTrigger>
+    <description>Marking test as successful</description>
+    <scope>source.python</scope>
+</snippet>

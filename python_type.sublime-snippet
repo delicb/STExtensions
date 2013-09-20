@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Keyboard.type(${1:''})
+]]></content>
+    <tabTrigger>type</tabTrigger>
+    <description>Snippet for simulating keyboard type.</description>
+    <scope>source.python</scope>
+</snippet>

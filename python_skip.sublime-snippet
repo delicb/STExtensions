@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+raise Skip('${1:skip message}')
+]]></content>
+    <tabTrigger>skip</tabTrigger>
+    <description>Marking test as skip.</description>
+    <scope>source.python</scope>
+</snippet>

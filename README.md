@@ -65,3 +65,8 @@ Snippet      | Explanation
 `ut`         | Inserts unittest class with predefined `setUp` and `tearDown`.
 `wait`       | Inserts pattern for waiting until condition is satisfied
 `warn`       | Inserts warning log message
+`succ`       | Inserts raising exception that will mark test as successful
+`skip`       | Inserts raising exception that will mark test as skipped
+`click`      | Inserts mouse click simulation
+`move`       | Inserts mouse move simulation
+`type`       | Inserts keyboard type simulation

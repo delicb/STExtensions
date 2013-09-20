@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Mouse.move(x=${1:0}, y=${2:0})
+]]></content>
+    <tabTrigger>move</tabTrigger>
+    <description>Snippet for simulating mouse move.</description>
+    <scope>source.python</scope>
+</snippet>
