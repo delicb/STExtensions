@@ -1,5 +1,5 @@
 {
     "cmd": ["ATRunnerCli.exe", "run_tests", "$file_base_name", "--unblock-input"],
     "shell": true,
-    "selector": "source.tesla",
+    "selector": ["source.tesla", "source.python"]
 }
